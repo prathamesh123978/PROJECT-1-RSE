@@ -1,0 +1,10 @@
+.wrap {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: border-color 0.2s;
+}
+
+.wrap:focus-within { border-color: var(--accent); }
+
+.wrap .cm-editor { background: #0d0d14 !important; }
