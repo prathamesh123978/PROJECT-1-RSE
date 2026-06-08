@@ -20,5 +20,9 @@ yarn-error.log*
 coverage/
 .DS_Store
 
+# Environment files
+*.env
+.env
+
 # VS Code
 .vscode/
